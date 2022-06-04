@@ -1,0 +1,67 @@
+.balanceWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: hsl(33, 100%, 98%);
+  height: 25rem;
+}
+
+.header {
+  color: hsl(25, 47%, 15%);
+}
+
+.chart {
+  padding: 2rem 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.line {
+  border: 0;
+  border-top: 5px solid hsl(27, 66%, 92%);
+  margin: 0 0 2rem 0;
+  height: 1px;
+  border-radius: 5px;
+}
+
+.chartFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+}
+
+.monthTotal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.monthTotalLabel {
+  margin-bottom: 0.3rem;
+  color: hsl(28, 10%, 53%);
+}
+
+.footerAmount {
+  font-size: 2rem;
+  color: hsl(25, 47%, 15%);
+}
+
+.percentIncrease {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 4px;
+}
+
+.percent {
+  color: hsl(25, 47%, 15%);
+  font-weight: 600;
+}
+
+.fromLast {
+  color: hsl(28, 10%, 53%);
+}
